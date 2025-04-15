@@ -38,6 +38,7 @@ android {
     lint {
         abortOnError false
     }
+    namespace 'org.dslul.openboard.inputmethod.latin'
 }
 
 dependencies {
