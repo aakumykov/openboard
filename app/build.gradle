@@ -39,6 +39,11 @@ android {
         abortOnError false
     }
     namespace 'org.dslul.openboard.inputmethod.latin'
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging false
+        }
+    }
 }
 
 dependencies {
